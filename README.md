@@ -37,7 +37,7 @@ The Personalized-Travel-Agent-Chatbot is your personal travel assistant, making 
 [User Input]
        |
        v
-[Intent Classification Model]
+[Intent Detection using LLM]
        |
        +-----------------+
        |                 |
