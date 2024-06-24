@@ -1,10 +1,10 @@
 # Personalized-Travel-Agent
 
-Personalized-Travel-Agent is an AI-powered chatbot designed to assist users with travel-related **Queries & Planning**. It provides a seamless interface for obtaining general travel information and exploring tour packages.
+Personalized-Travel-Agent is an AI-powered chatbot designed to assist users with **Travel-related Queries & Planning**. It provides a seamless interface for obtaining **General Travel Information and Exploring Tour Packages**.
 
 ## Introduction
 
-The Personalized-Travel-Agent-Chatbot is your personal travel assistant, making trip planning effortless and enjoyable. With its user-friendly interface and AI-powered capabilities, it offers instant and accurate travel insights. Whether you need information on city distances, flight times, or enticing travel packages, our chatbot has you covered for seamless trip planning.
+The Personalized-Travel-Agent-Chatbot is your personal travel assistant, making trip planning effortless and enjoyable. With its user-friendly interface and AI-powered capabilities, it offers instant and accurate travel insights. Whether you need information on **city distances, flight times, or enticing travel packages**, our chatbot has you covered for seamless trip planning.
 
 ## Features
 
@@ -15,7 +15,7 @@ The Personalized-Travel-Agent-Chatbot is your personal travel assistant, making 
 - Travel tips and advice
 
 ### Tour Package Information (TPI)
-- Wide range of vacation packages
+- Customized vacation packages stored in **Local SQLite db**
 - Package inclusions (accommodations, transportation, tours, activities)
 - Various package types (luxury to budget-friendly options)
 - Comparison of different travel agent offerings
@@ -26,6 +26,7 @@ The Personalized-Travel-Agent-Chatbot is your personal travel assistant, making 
 - AI Model: Gemini-pro LLM
 - Hosting: Streamlit Cloud
 - Backend: Python
+- Database: SQLite
 
 ## How It Works
 
@@ -51,8 +52,12 @@ The Personalized-Travel-Agent-Chatbot is your personal travel assistant, making 
 [Gemini-pro LLM]    [Gemini-pro LLM]
        |                 |
        v                 v
-[Process Response]  [Process Response]
+[Process Response]  [Natural Language to SQL Query Generation]
        |                 |
+       |                 v
+       v            [Trigger the Local Database (SQLite) to retrieve the Tour Packages]
+       |                 |
+       |                 v
        +-----------------+
                 |
                 v
