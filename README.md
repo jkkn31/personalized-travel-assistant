@@ -75,7 +75,7 @@ This flowchart illustrates the process from user input to result display:
 5. The response from the LLM is processed.
 6. The final results are displayed to the user through the Streamlit interface.
 
-## Prompts - using Template Prompt Pattern
+## Prompts - [using Template Prompt Patterns]
 
 ### General Travel Information (GTI) Prompt
 ```python
