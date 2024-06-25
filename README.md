@@ -122,3 +122,5 @@ result = get_gemini_repsonse(prompt_temp) ### Custom Fucntion to get the respons
 The app is hosted on Streamlit Cloud for seamless accessibility, performance, and easy scalability and maintenance.
 
 App Link: https://personal-travel-assistant.streamlit.app
+
+Youtube Link: https://youtu.be/BxzSQZw8yAE
